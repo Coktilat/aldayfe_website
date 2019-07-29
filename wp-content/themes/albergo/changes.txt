@@ -1,0 +1,34 @@
+1.2
+- Added WooCommerce 3.4.5 compatibility
+- Added compatibility with Gutenberg plugin
+- Added compatibility with PHP 7.2
+- Updated Visual Composer to 5.5.2
+- Updated Revolution Slider to 5.4.8
+- Updated Elated Core to 1.0.1
+- Updated Elated Hotel to 1.0.3
+- Updated Envato Market plugin to version 2.0.1
+- Fixed portfolio category page
+- Fixed team category page
+- Fixed http to https
+- Fixed POT file errors
+- Improved menu import functionality
+- Improved mobile menu opener
+- Improved Hotel Room List shortcode
+- Improved Product List Simple shortcode
+
+1.11
+- Updated Elated Hotel to version 1.0.2
+- Updated Elated Woocommerce Checkout Integration to version 1.0.1
+- Fixed email checking on reservation
+
+1.1
+- Added WooCommerce 3.3.4 compatibility
+- Added Elated Membership Plugin
+- Updated Elated Hotel to version 1.0.1
+- Updated Visual Composer to version 5.4.7
+- Updated Revolution Slider to 5.4.7.2
+- Updated Envato Market plugin to version 2.0.0
+- Fixed deprecated create_function
+- Fixed overflow on hotel room list shortcode
+- Fixed issue with database when table prefix is changed
+- Fixed email on reservation to use info from account

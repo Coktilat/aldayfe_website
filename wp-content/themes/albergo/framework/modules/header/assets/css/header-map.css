@@ -1,0 +1,1678 @@
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+.eltd-page-header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  z-index: 110;
+  box-sizing: border-box;
+  /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+  /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - end
+    ========================================================================== */
+}
+
+.eltd-page-header a img {
+  display: block;
+}
+
+.eltd-page-header p {
+  margin: 0;
+}
+
+.eltd-page-header .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.eltd-paspartu-enabled .eltd-page-header .eltd-vertical-align-containers {
+  padding: 0;
+}
+
+.eltd-page-header .eltd-grid {
+  height: 100%;
+}
+
+.eltd-page-header .eltd-grid .eltd-vertical-align-containers {
+  padding: 0;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.eltd-page-header .eltd-logo-area {
+  position: relative;
+  height: 87px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.eltd-page-header .eltd-logo-area .eltd-logo-wrapper a {
+  max-height: 87px;
+}
+
+.eltd-page-header .eltd-menu-area {
+  position: relative;
+  height: 87px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.eltd-boxed .eltd-page-header .eltd-menu-area {
+  padding: 0;
+}
+
+.eltd-page-header .eltd-menu-area .eltd-logo-wrapper a {
+  max-height: 87px;
+}
+
+.eltd-page-header .eltd-menu-area .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.eltd-logo-area-border-disable .eltd-page-header .eltd-logo-area {
+  border: none;
+}
+
+.eltd-logo-area-in-grid-border-disable .eltd-page-header .eltd-logo-area .eltd-grid .eltd-vertical-align-containers {
+  border: none;
+}
+
+.eltd-header-logo-area-in-grid-padding .eltd-page-header .eltd-logo-area .eltd-vertical-align-containers {
+  padding: 0 25px;
+}
+
+.eltd-menu-area-shadow-disable .eltd-page-header .eltd-menu-area {
+  box-shadow: none;
+}
+
+.eltd-menu-area-shadow-disable .eltd-page-header .eltd-menu-area .eltd-grid .eltd-vertical-align-containers {
+  box-shadow: none;
+}
+
+.eltd-menu-area-border-disable .eltd-page-header .eltd-menu-area {
+  border: none;
+}
+
+.eltd-menu-area-in-grid-border-disable .eltd-page-header .eltd-menu-area .eltd-grid .eltd-vertical-align-containers {
+  border: none;
+}
+
+.eltd-header-logo-area-in-grid-padding .eltd-page-header .eltd-menu-area .eltd-vertical-align-containers {
+  padding: 0 25px;
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 1;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 0;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget p,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget span,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget i,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a:hover {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget p,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget span,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget i,
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a:hover {
+  color: #fff !important;
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 1;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 0;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget p,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget span,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget i,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header) .eltd-menu-area .widget a:hover {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget p,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget span,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget i,
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.fixed):not(.eltd-sticky-header).eltd-menu-area .widget a:hover {
+  color: #333 !important;
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */
+/* ==========================================================================
+   Header end - end
+   ========================================================================== */
+/* ==========================================================================
+   Header logo styles - begin
+   ========================================================================== */
+.eltd-logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-logo-wrapper a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.eltd-logo-wrapper a img {
+  height: 100%;
+  width: auto;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.eltd-logo-wrapper a img.eltd-normal-logo {
+  opacity: 1;
+}
+
+.eltd-logo-wrapper a img.eltd-dark-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.eltd-logo-wrapper a img.eltd-light-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  transform: translateY(-200%);
+}
+
+/* ==========================================================================
+   Header logo styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Header main menu style - begin
+   ========================================================================== */
+.eltd-main-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  width: auto;
+  vertical-align: middle;
+}
+
+.eltd-main-menu ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.eltd-main-menu ul li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-main-menu ul li a {
+  font-size: 14px;
+  line-height: 16px;
+  color: #212112;
+}
+
+.eltd-main-menu ul li a:hover {
+  color: #212112;
+}
+
+.eltd-main-menu ul li a i:before {
+  margin: 0 7px 0 0;
+}
+
+.eltd-main-menu ul li a .menu_icon_wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-main-menu ul li a .eltd-menu-featured-icon {
+  position: relative;
+  top: -4px;
+  left: 5px;
+  color: currentColor;
+  font-size: 10px;
+  margin: 0;
+}
+
+.eltd-main-menu ul li a .eltd-menu-featured-icon:before {
+  margin: 0;
+}
+
+.eltd-main-menu > ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.eltd-main-menu > ul > li {
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.eltd-main-menu > ul > li > a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0 16px;
+  color: #212112;
+  font-size: 12px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer {
+  position: relative;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer .item_text {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltd-main-menu > ul > li > a > span.item_outer .item_text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 2px);
+  height: 1px;
+  background-color: #212112;
+  -webkit-transition: all 0.2s cubic-bezier(0.32, 0.93, 0.49, 0.77) 0.05s;
+  -moz-transition: all 0.2s cubic-bezier(0.32, 0.93, 0.49, 0.77) 0.05s;
+  transition: all 0.2s cubic-bezier(0.32, 0.93, 0.49, 0.77) 0.05s;
+  -webkit-transform: scale(0, 1);
+  -moz-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+.eltd-light-header .eltd-menu-area .eltd-main-menu > ul > li > a > span.item_outer .item_text:after {
+  background-color: #ffffff;
+}
+
+.eltd-main-menu > ul > li.eltd-active-item > a span.item_outer .item_text:after,
+.eltd-main-menu > ul > li:hover > a span.item_outer .item_text:after {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.eltd-main-menu > ul > li.has_sub > a .eltd-menu-arrow {
+  display: none;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a {
+  color: #fff;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a:hover {
+  color: #fff;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li.eltd-active-item > a {
+  color: #fff;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li > a:hover {
+  color: #333;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-main-menu > ul > li.eltd-active-item > a {
+  color: #333;
+}
+
+/* Narrow drop down styles
+   ========================================================================== */
+.eltd-drop-down .second {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 10;
+  -webkit-transition: top 0.15s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  -moz-transition: top 0.15s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  transition: top 0.15s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+}
+
+.eltd-drop-down .second.eltd-drop-down-start {
+  visibility: visible;
+  overflow: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  -moz-transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+}
+
+.eltd-drop-down .second.right {
+  right: 0;
+  left: auto;
+}
+
+.eltd-drop-down .second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  z-index: 997;
+  border-top: 1px solid #d0d0d0;
+}
+
+.eltd-drop-down .second .inner ul li {
+  display: block;
+  float: none;
+  height: auto;
+}
+
+.eltd-drop-down .second .inner ul li .widget {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.eltd-drop-down .second .inner ul li a {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 7px 24px;
+}
+
+.eltd-drop-down .second .inner ul li a .item_outer {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  -webkit-transition: padding 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  -moz-transition: padding 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  transition: padding 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+}
+
+.eltd-drop-down .second .inner ul li a .item_outer:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 0;
+  background-color: #121212;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), height 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), top 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  -moz-transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), height 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), top 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), height 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), top 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+}
+
+.eltd-drop-down .second .inner ul li a:hover .item_outer {
+  padding: 0 20px 0 10px;
+}
+
+.eltd-drop-down .second .inner ul li a:hover .item_outer:before {
+  opacity: 1;
+  top: 10%;
+  height: 80%;
+}
+
+.eltd-drop-down .second .inner ul li.current-menu-ancestor > a .item_outer,
+.eltd-drop-down .second .inner ul li.current-menu-item > a .item_outer {
+  padding: 0 20px 0 10px;
+}
+
+.eltd-drop-down .second .inner ul li.current-menu-ancestor > a .item_outer:before,
+.eltd-drop-down .second .inner ul li.current-menu-item > a .item_outer:before {
+  left: 0;
+  opacity: 1;
+  top: 10%;
+  height: 80%;
+}
+
+.eltd-drop-down .second .inner ul li.sub > a .item_outer:after {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  color: #121212;
+  top: 1px;
+  right: -4px;
+  font-family: "linea-arrows-10" !important;
+  content: "\e04b";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eltd-drop-down .second .inner ul.right li a .item_outer {
+  padding: 0 0 0 30px;
+}
+
+.eltd-drop-down .second .inner ul.right li a .item_outer:before {
+  left: auto;
+  right: 0;
+}
+
+.eltd-drop-down .second .inner ul.right li a:hover .item_outer {
+  padding: 0 20px 0 10px;
+}
+
+.eltd-drop-down .second .inner ul.right li.current-menu-ancestor > a .item_outer,
+.eltd-drop-down .second .inner ul.right li.current-menu-item > a .item_outer {
+  padding: 0 10px 0 20px;
+}
+
+.eltd-drop-down .second .inner ul.right li.current-menu-ancestor > a .item_outer:before,
+.eltd-drop-down .second .inner ul.right li.current-menu-item > a .item_outer:before {
+  opacity: 1;
+}
+
+.eltd-drop-down .second .inner ul.right li.sub > a .item_outer:after {
+  right: auto;
+  left: -2px;
+  content: "\e03f";
+}
+
+.eltd-drop-down .second .inner ul.right li a {
+  text-align: right;
+}
+
+.eltd-drop-down .second .inner ul.right li ul {
+  left: -100%;
+}
+
+.eltd-drop-down li.left_position .second {
+  left: 0;
+}
+
+.eltd-drop-down li.right_position .second {
+  left: auto;
+  right: 0;
+}
+
+.eltd-drop-down > ul > li:hover > .second {
+  z-index: 20;
+}
+
+.eltd-drop-down .narrow .second .inner ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  padding: 24px 0;
+  box-shadow: 4px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.eltd-drop-down .narrow .second .inner ul li {
+  width: 220px;
+}
+
+.eltd-drop-down .narrow .second .inner ul li ul {
+  position: absolute;
+  left: 100%;
+  top: -25px;
+  height: auto;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  border-top: 1px solid #d0d0d0;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 0.4s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  -moz-transition: opacity 0.4s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  transition: opacity 0.4s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+}
+
+.eltd-drop-down .narrow .second .inner ul li:hover ul {
+  z-index: 20;
+  opacity: 1;
+}
+
+.eltd-drop-down .narrow .second .inner ul.right li ul {
+  left: -100%;
+}
+
+/* Wide drop down styles
+   ========================================================================== */
+.eltd-drop-down .wide .second .inner {
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 4px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.eltd-drop-down .wide .second .inner ul li a {
+  padding: 7px 0;
+}
+
+.eltd-drop-down .wide .second .inner ul li ul {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  visibility: visible;
+}
+
+.eltd-drop-down .wide .second .inner ul li ul li:last-child a {
+  padding-bottom: 0;
+}
+
+.eltd-drop-down .wide .second .inner > ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1100px;
+  padding: 32px 0;
+  box-sizing: border-box;
+  /*
+                @media only screen and (min-width: 1400px) {
+                    .eltd-grid-1300 & {
+                        width: $grid-width-1300;
+                    }
+                }
+
+                @media only screen and (min-width: 1300px) {
+                    .eltd-grid-1200 & {
+                        width: $grid-width-1200;
+                    }
+                }
+                */
+}
+
+@media only screen and (min-width: 1200px) {
+  .eltd-grid-1000 .eltd-drop-down .wide .second .inner > ul {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .eltd-grid-800 .eltd-drop-down .wide .second .inner > ul {
+    width: 800px;
+  }
+}
+
+.eltd-drop-down .wide .second .inner > ul > li {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li:nth-child(4n+1) {
+  clear: both;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a {
+  padding: 0 0 9px;
+  font-family: "Playfair Display", serif;
+  color: #545454;
+  font-size: 15px;
+  line-height: 1.1em;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a.no_link {
+  cursor: default;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a .item_outer {
+  padding: 0;
+  overflow: inherit;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li > a .item_outer:before, .eltd-drop-down .wide .second .inner > ul > li > a .item_outer:after {
+  display: none;
+}
+
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-ancestor > a,
+.eltd-drop-down .wide .second .inner > ul > li.current-menu-item > a {
+  opacity: 0.85;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul, .eltd-drop-down .wide.right_position .second .inner > ul {
+  width: auto;
+  white-space: nowrap;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul > li, .eltd-drop-down .wide.right_position .second .inner > ul > li {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-drop-down .wide.left_position .second .inner > ul > li:nth-child(4n+1), .eltd-drop-down .wide.right_position .second .inner > ul > li:nth-child(4n+1) {
+  border-left: none;
+}
+
+.eltd-drop-down .wide.left_position .second ul li, .eltd-drop-down .wide.right_position .second ul li {
+  width: 200px;
+}
+
+/* ==========================================================================
+   Header main menu style - end
+   ========================================================================== */
+/* ==========================================================================
+   Fixed header style - begin
+   ========================================================================== */
+.eltd-page-header .eltd-fixed-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.admin-bar .eltd-page-header .eltd-fixed-wrapper.fixed {
+  margin-top: 32px;
+}
+
+.eltd-page-header .eltd-fixed-wrapper.fixed .eltd-menu-area {
+  background-color: #fff;
+}
+
+.eltd-fixed-on-scroll .eltd-page-header .eltd-fixed-wrapper .eltd-menu-area {
+  -webkit-transition: height 0.2s ease;
+  -moz-transition: height 0.2s ease;
+  transition: height 0.2s ease;
+}
+
+/* ==========================================================================
+   Fixed header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Centered style - begin
+   ========================================================================== */
+.eltd-header-centered .eltd-page-header .eltd-logo-area {
+  height: 93px;
+  overflow: visible;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-logo-area .eltd-logo-wrapper a {
+  max-height: 110px;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-menu-area {
+  height: 58px;
+  z-index: 1;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-menu-area .eltd-vertical-align-containers .eltd-position-center-inner {
+  height: 100%;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-sticky-header .eltd-position-left-inner {
+  height: auto;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-sticky-header .eltd-position-center-inner {
+  height: 100%;
+}
+
+.eltd-header-centered .eltd-page-header .eltd-sticky-header .eltd-position-right-inner {
+  height: auto;
+}
+
+/* ==========================================================================
+   Header Centered style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard style - begin
+   ========================================================================== */
+.eltd-header-standard .eltd-menu-area.eltd-menu-left .eltd-main-menu {
+  width: auto;
+  padding: 0 0 0 20px;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-left .eltd-vertical-align-containers .eltd-position-left-inner {
+  height: 100%;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-left .eltd-vertical-align-containers .eltd-position-right-inner {
+  height: 100%;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-center .eltd-logo-wrapper {
+  display: block;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-center .eltd-vertical-align-containers .eltd-position-center-inner {
+  height: 100%;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-right .eltd-logo-wrapper {
+  display: block;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-right .eltd-main-menu {
+  width: auto;
+}
+
+.eltd-header-standard .eltd-menu-area.eltd-menu-right .eltd-vertical-align-containers .eltd-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical style - begin
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical navigation style - begin
+   ========================================================================== */
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu-outer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 100px 0;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-menu > ul {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-outer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 75px 0 55px;
+  padding: 0;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 2px 0;
+  color: #545454;
+  font-size: 14px;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a:hover .eltd-menu-arrow {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .item_outer {
+  position: relative;
+  display: block;
+  padding: 0 15px 0 0;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .eltd-menu-arrow {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  font-size: 20px;
+  line-height: 1em;
+  margin: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -moz-transition: -moz-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .eltd-menu-featured-icon {
+  position: relative;
+  top: -4px;
+  left: 3px;
+  color: #121212;
+  font-size: 12px;
+  margin: 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li a .menu_icon:not(.blank):not(.null) {
+  padding: 0 5px 0 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li.open .item_outer .eltd-menu-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul {
+  padding: 3px 0;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub > a .item_outer {
+  position: relative;
+  display: block;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub > a .item_outer:after {
+  position: absolute;
+  top: -1px;
+  right: 0;
+  margin: 0;
+  font-family: 'FontAwesome';
+  font-size: inherit;
+  line-height: inherit;
+  content: "\f105";
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub.current_page_item > a .item_outer:after,
+.eltd-header-vertical .eltd-vertical-menu ul li ul li.sub.current-menu-ancestor > a .item_outer:after {
+  content: "\f107";
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second {
+  display: none;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  z-index: 997;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second .inner a {
+  -webkit-transition: all 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  -moz-transition: all 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  transition: all 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second .inner a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 0;
+  background-color: #121212;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), height 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), top 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  -moz-transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), height 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), top 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+  transition: opacity 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), height 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98), top 0.25s cubic-bezier(0.09, 0.13, 0.13, 0.98);
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second .inner a:hover {
+  padding-left: 10px;
+}
+
+.eltd-header-vertical .eltd-vertical-menu ul li .second .inner a:hover:before {
+  opacity: 1;
+  top: 30%;
+  height: 40%;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a {
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: #121212;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a span.item_text:after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: calc(100% - 2px);
+  height: 1px;
+  background-color: #545454;
+  -webkit-transition: all 0.2s cubic-bezier(0.32, 0.93, 0.49, 0.77) 0.05s;
+  -moz-transition: all 0.2s cubic-bezier(0.32, 0.93, 0.49, 0.77) 0.05s;
+  transition: all 0.2s cubic-bezier(0.32, 0.93, 0.49, 0.77) 0.05s;
+  -webkit-transform: scale(0, 1);
+  -moz-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a.current span.item_text {
+  position: relative;
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a.current span.item_text:after {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.eltd-header-vertical .eltd-vertical-menu > ul > li > a:hover span.item_text:after {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li a {
+  color: #fff !important;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li a:hover {
+  color: #fff !important;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current_page_item > a,
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-item > a,
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-ancestor > a {
+  color: #fff !important;
+}
+
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu > ul > li.eltd-active-item > a,
+.eltd-light-header.eltd-header-vertical .eltd-vertical-menu > ul > li.current-menu-ancestor > a {
+  color: #fff !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li a {
+  color: #333 !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li a:hover {
+  color: #333 !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current_page_item > a,
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-item > a,
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu ul li ul li.current-menu-ancestor > a {
+  color: #333 !important;
+}
+
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu > ul > li.eltd-active-item > a,
+.eltd-dark-header.eltd-header-vertical .eltd-vertical-menu > ul > li.current-menu-ancestor > a {
+  color: #333 !important;
+}
+
+/* ==========================================================================
+   Header Vertical navigation style - end
+   ========================================================================== */
+.eltd-header-vertical .eltd-vertical-area-widget-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 10px 0 0;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-vertical-alignment-center .eltd-vertical-area-widget-holder {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+
+.eltd-header-vertical.admin-bar .eltd-vertical-menu-area {
+  top: 32px;
+  height: calc(100% - 32px);
+}
+
+.eltd-header-vertical .eltd-content,
+.eltd-header-vertical footer {
+  padding-left: 327px;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 100%;
+  padding: 6% 55px 55px 55px;
+  background-color: transparent;
+  outline: none;
+  z-index: 101;
+  -webkit-backface-visibility: hidden;
+  box-sizing: border-box;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area.eltd-with-scroll {
+  overflow: hidden;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-left {
+  text-align: left;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-center {
+  text-align: center;
+}
+
+.eltd-header-vertical .eltd-vertical-menu-area-inner.eltd-vertical-align-center .eltd-logo-wrapper img {
+  margin: 0 auto;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.eltd-header-vertical .eltd-logo-wrapper img {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.eltd-header-vertical .eltd-vertical-area-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 100%;
+  background-color: #fff;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease, background-color 0.5s ease;
+  -moz-transition: opacity 0.5s ease, background-color 0.5s ease;
+  transition: opacity 0.5s ease, background-color 0.5s ease;
+}
+
+.eltd-header-vertical.eltd-header-vertical-shadow-disable .eltd-vertical-area-background {
+  box-shadow: none;
+}
+
+.eltd-header-vertical.eltd-header-vertical-border-disable .eltd-vertical-area-background {
+  border: none;
+}
+
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 1;
+}
+
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-light-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 0;
+}
+
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-dark-logo {
+  opacity: 1;
+}
+
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-normal-logo,
+.eltd-dark-header .eltd-vertical-menu-area .eltd-logo-wrapper .eltd-light-logo {
+  opacity: 0;
+}
+
+/* ==========================================================================
+   Header Vertical style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header style - begin
+   ========================================================================== */
+.eltd-mobile-header {
+  position: relative;
+  display: none;
+  z-index: 110;
+  /* #General mobile header styles
+    ========================================================================== */
+  /* #End of general mobile header styles
+   ========================================================================== */
+  /* #Mobile logo styles
+    ========================================================================== */
+  /* #End of mobile logo styles
+    ========================================================================== */
+  /* #Mobile menu opener styles
+    ========================================================================== */
+  /* #End of mobile menu opener styles
+    ========================================================================== */
+  /* #Mobile menu navigation styles
+    ========================================================================== */
+  /* #End of mobile menu navigation styles
+	========================================================================== */
+}
+
+.eltd-mobile-header .eltd-mobile-header-inner {
+  position: relative;
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+  box-sizing: border-box;
+}
+
+.eltd-mobile-header .eltd-mobile-header-inner .eltd-mobile-header-holder {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.eltd-mobile-header .eltd-grid {
+  height: 100%;
+}
+
+.eltd-mobile-header .eltd-vertical-align-containers {
+  padding: 0;
+}
+
+.eltd-mobile-header .eltd-mobile-logo-wrapper a {
+  display: block;
+}
+
+.eltd-mobile-header .eltd-mobile-logo-wrapper img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener {
+  position: relative;
+  height: 100%;
+  float: left;
+  z-index: 2;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a {
+  display: table;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a > * {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1em;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-icon {
+  font-size: 30px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener a .eltd-mobile-menu-text {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  padding-left: 5px;
+}
+
+.eltd-mobile-header .eltd-mobile-menu-opener.eltd-mobile-menu-opened a {
+  opacity: 0.85;
+}
+
+.eltd-mobile-header .eltd-mobile-nav {
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li a, .eltd-mobile-header .eltd-mobile-nav ul li h6 {
+  position: relative;
+  display: block;
+  padding: 9px 0;
+  margin: 0;
+  color: #121212;
+  border-bottom: 1px solid #ebebeb;
+  cursor: pointer;
+  line-height: 23px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 11px !important;
+  /* Font size for mobile menu*/
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li a:hover, .eltd-mobile-header .eltd-mobile-nav ul li h6:hover {
+  opacity: 0.85;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li .sub_menu li {
+  text-transform: none !important;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul li .sub_menu li a {
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul {
+  display: none;
+  margin-left: 15px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-ancestor > a,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-item > a,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-ancestor > h6,
+.eltd-mobile-header .eltd-mobile-nav ul ul li.current-menu-item > h6 {
+  opacity: 0.85;
+}
+
+.eltd-mobile-header .eltd-mobile-nav ul ul li a, .eltd-mobile-header .eltd-mobile-nav ul ul li h6 {
+  font-size: 11px;
+  line-height: 24px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li > a,
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li > h6 {
+  padding-left: 4px;
+  font-size: 13px;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > a,
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > h6 {
+  opacity: 0.85;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .eltd-grid > ul > li.eltd-active-item > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  padding-right: 12px;
+  padding-top: 8px;
+  font-size: 15px;
+  line-height: inherit;
+  text-align: right;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow:hover {
+  cursor: pointer;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow .eltd-sub-arrow {
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow .icon-arrows-right {
+  display: none;
+}
+
+.eltd-mobile-header .eltd-mobile-nav .mobile_arrow .fa-angle-down {
+  display: none;
+}
+
+.eltd-mobile-header .eltd-mobile-nav li.eltd-opened > .mobile_arrow > .eltd-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.eltd-mobile-header .eltd-mobile-nav > ul > li:last-child > a,
+.eltd-mobile-header .eltd-mobile-nav > .eltd-grid > ul > li:last-child > a {
+  border-bottom: none;
+}
+
+/* ==========================================================================
+   Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky Mobile header style - begin
+   ========================================================================== */
+.eltd-sticky-up-mobile-header .eltd-animate-mobile-header .eltd-mobile-header-inner {
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  -moz-transition: -moz-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+}
+
+.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.eltd-sticky-up-mobile-header.admin-bar .mobile-header-appear .eltd-mobile-header-inner {
+  -webkit-transform: translateY(32px);
+  -moz-transform: translateY(32px);
+  transform: translateY(32px);
+}
+
+/* ==========================================================================
+   Sticky Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header style - begin
+   ========================================================================== */
+.eltd-sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 87px;
+  width: 100%;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -moz-transition: -moz-transform 0.6s ease;
+  transition: transform 0.6s ease;
+}
+
+.eltd-sticky-header .eltd-grid {
+  height: 100% !important;
+}
+
+.eltd-sticky-header.header-appear {
+  transform: translateY(0%);
+}
+
+.eltd-sticky-header .eltd-sticky-holder {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  background-color: #fff;
+  border-bottom: 1px solid #d0d0d0;
+  box-sizing: border-box;
+}
+
+.eltd-sticky-header .eltd-sticky-holder .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+body:not(.eltd-header-centered) .eltd-sticky-header .eltd-sticky-holder .eltd-vertical-align-containers .eltd-position-left-inner {
+  height: 100%;
+  /* cuz of main menu vertical position */
+}
+
+.eltd-sticky-header .eltd-sticky-holder .in-grid .eltd-vertical-align-containers {
+  padding: 0;
+}
+
+.eltd-sticky-header .eltd-sticky-holder .eltd-logo-wrapper a {
+  max-height: 87px;
+}
+
+.eltd-sticky-header .eltd-position-left .eltd-main-menu {
+  padding: 0 0 0 20px;
+}
+
+.admin-bar .eltd-sticky-header.header-appear {
+  top: 32px;
+}
+
+.eltd-sticky-header .eltd-sticky-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-sticky-header .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Sticky header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header style - begin
+   ========================================================================== */
+.eltd-top-bar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 46px;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1;
+  background-color: #121212;
+  z-index: 111;
+}
+
+.eltd-top-bar > .eltd-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.eltd-top-bar .eltd-grid {
+  height: 100%;
+}
+
+.eltd-top-bar .eltd-grid .eltd-vertical-align-containers {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.eltd-top-bar-in-grid-padding .eltd-top-bar .eltd-grid .eltd-vertical-align-containers {
+  padding: 0 60px;
+}
+
+.eltd-top-bar .widget {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Top header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/header-map.css.map */

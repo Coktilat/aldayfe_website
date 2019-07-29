@@ -1,0 +1,19 @@
+body.woocommerce  h1 {
+	color: #ffffff;
+}
+body.woocommerce .table.compare-list tr.image th, 
+body.woocommerce table.compare-list tr.title th, 
+body.woocommerce table.compare-list tr.price th, 
+body.woocommerce table.compare-list tr.add-to-cart th ,
+body.woocommerce table.compare-list th, 
+body.woocommerce table.compare-list td, 
+body.woocommerce table.compare-list th, 
+body.woocommerce table.compare-list .price.repeated th,
+body.woocommerce table.compare-list .price.repeated td {
+	padding: 10px 20px;
+	text-indent: 0;
+	border-bottom: 1px solid #d6d6d6;
+}
+body.woocommerce  .add-to-cart.odd {
+    height: 72px !important;
+}

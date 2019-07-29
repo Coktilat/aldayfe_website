@@ -1,0 +1,23 @@
+#orion-to-header .display_header {
+  padding: 30px;
+  background-color: #fff; }
+  #orion-to-header .display_header .logo {
+    max-width: 160px;
+    display: block; }
+    #orion-to-header .display_header .logo img {
+      max-width: 100%; }
+  #orion-to-header .display_header h2 {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 6px; }
+
+.left-column, .right-column {
+  width: 50%;
+  display: block;
+  float: left; }
+
+.right-column {
+  text-align: right; }
+  .right-column a {
+    display: block;
+    text-decoration: none; }

@@ -1,0 +1,129 @@
+.tb-custom-header-landing{
+	.tb-logo{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	h1{
+		font-size: 20px;
+    	color: @jws_theme_common_color;
+	}
+	.btn-transparent{
+		background-color: @jws_theme_common_color;
+		color:#fff;
+		border-radius:50px;
+		&:hover{
+			background-color: @jws_theme_primary_color;
+			border-color:@jws_theme_primary_color;
+		}
+	}
+}
+.wpb_raw_code.wpb_content_element{
+	margin-bottom:0px!important;
+	@media(min-width:992px) and(max-width:1199px){
+		 [class*="col-md-4"]{
+			width: 50%;
+		 }
+	}		
+}
+@media(max-width:390px){
+	 .tb-custom-header-landing{
+		.wpb_text_column{
+			h1{
+				font-size: 17px;
+			}
+		}
+	 }
+	 .porfolio-demo{
+		.image-shop-box.demo-full{
+			.image-bg{
+				width: 260px;
+				height: 240px;
+				.image-shop-scroll{
+					width: 242px;
+				}
+			}
+		}
+	 }
+}
+.porfolio-demo{
+	margin-bottom: 43px;
+	.image-shop-box{
+		margin-bottom: 10px;
+	    display: block;
+	    // text-align: center;
+	}
+	.image-bg {
+	    background: url('././assets/images/demo-bg.png') no-repeat center top;
+	    width: 350px;
+	    height: 330px;
+	    display: inline-block;
+	    position: relative;
+	    .image-shop-scroll {
+		    transition: all 6s ease-out 0s;
+		    -webkit-transition: all 6s ease-out 0s;
+		    -moz-transition: all 6s ease-out 0s;
+		    -ms-transition: all 6s ease-out 0s;
+		    -o-transition: all 6s ease-out 0s;
+		    background-position: center 0;
+		    background-repeat: no-repeat;
+		    position: absolute;
+		    width: 321px;
+		    height: 192px;
+		    top: 14px;
+		    left: 0;
+		    background-size: cover;
+		    right: 0;
+		    margin: 0 auto;
+		    &.comming-soon{
+		    	background-color: @tb_primary_color;
+
+		    }
+		    strong{
+		    	position: absolute;
+			    top: 50%;
+			    transform: translateY(-50%);
+			    width: 100%;
+			    left: 0;
+			    font-size: 22px;
+			    color: #fff;
+
+		    }
+		}
+		&:hover{
+			.image-shop-scroll {
+			    background-position: center 100%!important;
+			    strong{
+			    	-webkit-animation:  fadeInUp50 1s;
+			    	-ms-animation:  fadeInUp50 1s;
+			    	-moz-animation:  fadeInUp50 1s;
+    				animation:  fadeInUp50 1s;
+			    }
+			}
+		}
+	}
+	h2{
+		// text-transform: uppercase;
+	    color: @jws_theme_common_color;
+	    font-size: 18px;
+	    margin-top:20px;
+	    font-weight: 700;
+	    &:hover{
+	    	color:@jws_theme_primary_color;
+	    }
+	}
+
+}
+.tb-footer-demo{
+	.primary-color{
+		color:@tb_primary_color;
+		&:hover{
+			color:@jws_theme_common_color;
+		}
+	}
+}
+.tb_menu_demo .laforat-title-default{
+	.tb-image{
+		left: 0;
+		transform: none;
+	}
+}

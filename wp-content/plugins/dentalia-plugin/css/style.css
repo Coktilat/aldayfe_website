@@ -1,0 +1,7 @@
+/* video widget fix */
+body .so-widget-orion_responsive_video_w  {
+	display: block;
+}
+.sow-icon-fontawesome[data-sow-icon]:before {
+    font-family: inherit!important;
+}

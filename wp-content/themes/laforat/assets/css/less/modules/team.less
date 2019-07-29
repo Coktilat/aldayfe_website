@@ -1,0 +1,121 @@
+.tb-team{
+	.tb-box-inner{
+		margin-bottom: 30px;
+		background: #ffffff;
+		padding-bottom: 30px;
+		.tb-image{
+			overflow: hidden;
+			position:relative;
+			> img{
+				width: 100%;
+				height: auto;
+				.easing-in-animation;
+				overflow:hidden;
+			}
+		}
+	}
+	.tb-image-name{
+		margin: 14px 0 8px;
+		.tb-name{
+			font-size: 14px;
+			margin-bottom: 4px;
+			color: #383838;
+			font-weight: 400;
+			h5{
+				text-transform: uppercase;
+			}
+			&:hover{
+				color:@jws_theme_primary_color;
+			}
+		}
+		.tb-experience{
+			font-family: @jws_theme_google_font_1;
+			font-weight: 400;
+			font-size: 13px;
+			color: #9c9c9c;
+			text-transform: capitalize;
+		}		
+	}
+	.tb-social{
+		a{
+			font-size: 16px;
+			margin-right: 18px;
+			color: #dadada;
+			&:last-child{
+				margin-right: 0;
+			}
+			&:hover{
+				color: @jws_theme_primary_color;
+			}
+		}
+	}
+}
+.content.tb-blog{
+	.team.type-team{
+		.tb-blog-image{
+			> img{
+				max-width:100%;
+				height:auto;
+				width:100%;
+			}
+			> a{
+				display:none;
+			}
+		}
+		.tb-content-block{
+			.blog-info{
+				.author-name{
+					display: inline-block;
+					font-family: @jws_theme_google_font_1;
+					font-weight: 400;
+					font-size: 13px;
+				}
+				.tb-blog-date{
+					display: inline-block;
+					> a{
+						> i{
+							display: inline-block;
+						}
+						> .the_time,.the_date{
+							display: inline-block;
+							font-family: @jws_theme_google_font_1;
+							font-weight: 400;
+							font-size: 13px;
+							margin-left: 7px;
+						}
+					}
+				}
+				.comments-number{
+					margin-left:7px;
+					font-family:@jws_theme_google_font_1;
+					font-weight:400;
+					i{
+						margin-right: 3px;
+					}
+					.tb_comment{
+						display: inline-block;
+						font-family: @jws_theme_google_font_1;
+						font-weight: 400;
+						font-size: 13px;
+						margin-left: 4px;
+					}
+				}
+				.tags{
+					display: inline-block;
+				}
+			}
+			.blog-title{
+				font-family:@jws_theme_google_font_1;
+				font-weight:400;
+				&:hover{
+					color:@jws_theme_primary_color;
+				}
+			}
+			.tb-excerpt{
+				font-family:@jws_theme_google_font_1;
+				font-weight:400;
+				line-height:24px;
+			}
+		}
+	}
+}

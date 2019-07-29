@@ -1,0 +1,1 @@
+<?php do_action( 'albergo_elated_get_footer_template' );

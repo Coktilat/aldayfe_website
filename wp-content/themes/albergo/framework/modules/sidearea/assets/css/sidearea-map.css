@@ -1,0 +1,188 @@
+/* ==========================================================================
+   Side area styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+# Side area style - begin
+========================================================================== */
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener .eltd-side-menu-icon span,
+.eltd-light-header .eltd-top-bar .eltd-side-menu-button-opener .eltd-side-menu-icon span {
+  background-color: #fff !important;
+}
+
+.eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener .eltd-side-menu-icon span.opened, .eltd-light-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener .eltd-side-menu-icon span:hover,
+.eltd-light-header .eltd-top-bar .eltd-side-menu-button-opener .eltd-side-menu-icon span.opened,
+.eltd-light-header .eltd-top-bar .eltd-side-menu-button-opener .eltd-side-menu-icon span:hover {
+  background-color: #fff !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener .eltd-side-menu-icon span,
+.eltd-dark-header .eltd-top-bar .eltd-side-menu-button-opener .eltd-side-menu-icon span {
+  background-color: #333 !important;
+}
+
+.eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener .eltd-side-menu-icon span.opened, .eltd-dark-header .eltd-page-header > div:not(.eltd-sticky-header):not(.fixed) .eltd-side-menu-button-opener .eltd-side-menu-icon span:hover,
+.eltd-dark-header .eltd-top-bar .eltd-side-menu-button-opener .eltd-side-menu-icon span.opened,
+.eltd-dark-header .eltd-top-bar .eltd-side-menu-button-opener .eltd-side-menu-icon span:hover {
+  background-color: #333 !important;
+}
+
+.eltd-side-menu-button-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-title {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+  color: currentColor;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon {
+  position: relative;
+  display: block;
+  height: 14px;
+  width: 20px;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon span {
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #121212;
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  line-height: inherit;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon span:nth-child(1) {
+  top: 0;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon span:nth-child(2) {
+  top: 50%;
+}
+
+.eltd-side-menu-button-opener .eltd-side-menu-icon span:nth-child(3) {
+  top: 100%;
+}
+
+.eltd-side-menu-button-opener.opened .eltd-side-menu-icon span, .eltd-side-menu-button-opener:hover .eltd-side-menu-icon span {
+  opacity: 0.8;
+}
+
+.eltd-side-menu {
+  position: fixed;
+  top: 0;
+  right: -405px;
+  width: 405px;
+  height: 100%;
+  min-height: 100%;
+  padding: 6% 45px 0px 45px;
+  background-color: #fff;
+  text-align: left;
+  overflow: hidden;
+  visibility: hidden;
+  z-index: 9999;
+  -webkit-backface-visibility: hidden;
+  box-sizing: border-box;
+  box-shadow: -3px 0 3px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.eltd-side-menu .eltd-sidearea-top-bottom-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.eltd-side-menu .eltd-sidearea-top-bottom-holder .eltd-sidearea-top-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.eltd-side-menu .eltd-sidearea-top-bottom-holder .eltd-sidearea-bottom-holder {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.eltd-side-menu .eltd-close-side-menu-holder {
+  position: absolute;
+  top: 30px;
+  right: 34px;
+  z-index: 1000;
+}
+
+.admin-bar .eltd-side-menu .eltd-close-side-menu-holder {
+  top: 68px;
+}
+
+.eltd-side-menu a.eltd-close-side-menu {
+  display: block;
+  color: #121212;
+  font-size: 30px;
+  z-index: 1000;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.eltd-side-menu a.eltd-close-side-menu:hover {
+  color: #545454;
+}
+
+.eltd-side-menu a.eltd-close-side-menu span {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-side-menu a.eltd-close-side-menu span:before {
+  display: block;
+  line-height: inherit;
+}
+
+.eltd-side-menu-slide-from-right.eltd-right-side-menu-opened .eltd-wrapper .eltd-cover {
+  z-index: 3000;
+}
+
+.eltd-side-menu-slide-from-right.eltd-right-side-menu-opened .eltd-side-menu {
+  right: 0;
+  visibility: visible;
+}
+
+.eltd-side-menu-slide-from-right .eltd-wrapper .eltd-cover {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* ==========================================================================
+# Side area style - end
+========================================================================== */
+/* ==========================================================================
+   Side area styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/sidearea-map.css.map */
